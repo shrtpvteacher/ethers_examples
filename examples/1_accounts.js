@@ -15,3 +15,6 @@ const main = async () => {
   console.log(balance);
 };
 
+main();
+
+
