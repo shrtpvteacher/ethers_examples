@@ -4,7 +4,7 @@ const { ethers } = require("ethers");
 const rpcURL = 'https://cloudflare-eth.com/';
 
 
-const provider = new ethers.providers.JsonRpcProvider();
+const provider = new ethers.providers.JsonRpcProvider(rpcURL);
 // or if wanting to connect to metamask do this: it will wrap a Web3Provider around the window.ethereum object
 // const provider = new ethers.providers.Web3Provider(window.ethereum)
 
